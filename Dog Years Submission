@@ -1,0 +1,21 @@
+// I am defining a variable for my age, which is 28
+var myAge = 28;
+// I am defining a variable to 2 
+var earlyYears = 2;
+// I have assigned two math operations to two different variables
+earlyYears *= 10.5;
+myAge -= 2;
+// I have assigned the variable 'laterYears' to be equal to the new result of 'myAge'
+var laterYears = (myAge * 4);
+console.log(earlyYears, laterYears);
+// I have assigned a new variable 'myAgeInDogYears' to be the sum of two other variables
+var myAgeInDogYears = (earlyYears + laterYears);
+// I have created a new variable which inlcudes my name and added a string to show my name in all lower case letters
+var myName = 'Jacob';
+console.log('Jacob'.toLowerCase());
+// I consoled log a new string and used string interpolation to replace some of the words with the correct variables
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+
+
+
+
